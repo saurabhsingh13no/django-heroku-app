@@ -9,12 +9,12 @@ This application supports the [Getting Started with Python on Heroku](https://de
 Make sure you have Python [installed properly](http://install.python-guide.org). Also, install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) and [Postgres](https://devcenter.heroku.com/articles/heroku-postgresql#local-setup).
 
 ```sh
-$ git clone git@github.com:heroku/python-getting-started.git
-$ cd python-getting-started
+$ git clone https://github.com/saurabhsingh13no/django-heroku-app.git
+$ cd django-heroku-app
 
 $ pipenv install
 
-$ createdb python_getting_started
+$ createdb django-heroku-app
 
 $ python manage.py migrate
 $ python manage.py collectstatic
